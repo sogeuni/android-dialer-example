@@ -12,6 +12,9 @@ import java.util.Locale;
 import java.util.Timer;
 import java.util.TimerTask;
 
+/**
+ * Incomming / Outgoing Call 화면
+ */
 public class CallActivity extends Activity implements View.OnClickListener, CallManager.StateListener, Handler.Callback {
 
     private static final String TAG = "CallActivity";
@@ -86,6 +89,11 @@ public class CallActivity extends Activity implements View.OnClickListener, Call
         updateView(uiCall);
     }
 
+    /**
+     * 현재 전화 상태에 따라 view 모양 변경
+     *
+     * @param uiCall
+     */
     private void updateView(UiCall uiCall) {
         mTextStatus.setVisibility(
                 (uiCall.getStatus() == UiCall.Status.ACTIVE) ? View.GONE : View.VISIBLE

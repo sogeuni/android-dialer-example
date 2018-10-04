@@ -3,6 +3,9 @@ package io.sogn.dialer;
 import android.support.annotation.Nullable;
 import android.telecom.Call;
 
+/**
+ * android.telecom.Call 객체를 UI에서 표현하기 위해 변환한 객체
+ */
 public class UiCall {
 
     private static final String UNKNOWN_NAME = "Unknown";

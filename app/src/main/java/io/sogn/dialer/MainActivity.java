@@ -117,10 +117,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         switch(resultCode) {
             case RESULT_OK:
-                message = "User accepted request to become default dialer";
+                message = "기본 전화 앱으로 설정하였습니다.";
                 break;
             case RESULT_CANCELED:
-                message = "User declined request to become default dialer";
+                message = "기본 전화 앱으로 설정하지 않았습니다.";
                 break;
             default:
                 message = "Unexpected result code " + resultCode;
