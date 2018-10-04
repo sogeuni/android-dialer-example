@@ -110,8 +110,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         startActivityForResult(intent, REQUEST_CODE_SET_DEFAULT_DIALER);
     }
 
-
-
     private void checkSetDefaultDialerResult(int resultCode) {
         String message;
 
