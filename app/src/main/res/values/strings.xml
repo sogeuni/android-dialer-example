@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Android Dialer Replacement</string>
+    <string name="app_name">Dialer Replacement</string>
+    <string name="button_call">Call</string>
 </resources>
